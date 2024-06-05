@@ -1,0 +1,47 @@
+/* SalaryList.css */
+
+.mainClass{
+  background-color: #db920a;
+}
+
+/* Input and button styles */
+input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #4caf50; /* Green */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button.btnCalculate {
+  background-color: #2196f3; /* Blue */
+}
+
+button:hover {
+  background-color: #eff3f0; /* Darker Green */
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #4f03ff;
+}
+
+
+
+
+

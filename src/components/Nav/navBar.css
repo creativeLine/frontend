@@ -1,0 +1,98 @@
+.nav,
+.SNav {
+  height: 98.8vh;
+  background-color: rgb(150, 150, 148);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 0.5s linear;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.nav {
+  width: 270px;
+  background-color: rgb(155, 153, 153);
+}
+
+.SNav {
+  width: 70px;
+  background-color: rgb(147, 150, 148);
+}
+
+.btn {
+  margin: 0px;
+  padding: 2px 10px;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 30px;
+}
+
+li {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: rgb(170, 13, 13);
+  transition: background-color 0.8s;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li:hover {
+  background-color: rgba(113, 124, 112, 0.2);
+}
+
+li svg {
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.app-container {
+  display: flex;
+}
+
+.toggleButton {
+  display: flex;
+  position: relative;
+  left: 8px;
+  position: fixed;
+}
+
+li a {
+  text-decoration: none;
+}
+
+
+
+
+@media (max-width: 768px) {
+  
+
+  li {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  li svg {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 480px) {
+  
+  li {
+    font-size: 24px;
+    padding: px;
+  }
+
+  li svg {
+    font-size: 28px;
+    margin-right: 20px;
+  }
+}
